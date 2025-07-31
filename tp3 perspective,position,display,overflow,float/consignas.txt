@@ -1,0 +1,20 @@
+1) crea una caja #D que gire cuando se muev el cursor sobre ella
+crea un div con claes caja 3d
+agrega estilo css
+agrega perspectiva al contenedor padre
+
+2)crea una pagina con un menu fijo en la parte superior que permanezaca visible al hacer scroll vertical
+creaun div con la clase menu y otro con clase contenido
+debes posicionar el menu con position fixed y top 0
+
+3)Crea una galeria de imagenes con una disposicion de cuadricula grid responsive donde cada imagen ocupe el mismo espacio 
+y se adapte al tamaño de la pantalla
+utiliza display grid y propiedades como grid template columns y grid gap
+
+4) crea un div con un texto largo que se despliegue con una barra de desplazamiento horizontal cuando el contenido supere el ancho del contenedor y con "..." al final del texto visible
+
+utilizaoverflowx auto y text overflow elipsis
+
+5)crea una disposicion de tarjetas de noticias con imagenes flotantes y texto envolviendolas donde cada tarjeta tenga
+un  diseño de mosaico irregular con diferentes tamaños y posiciones sin usar flexbox ni grid
+utiliza float,clear y tecnicas deposicionamiento avanzadas

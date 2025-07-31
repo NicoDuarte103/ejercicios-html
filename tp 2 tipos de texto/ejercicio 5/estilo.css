@@ -1,0 +1,20 @@
+.contenedor{background-color:red;}
+
+.caja-transformada{background-color:blue;
+			transform:rotate(45deg); 
+			transition:transform 1s;}
+
+.caja-sombra{background-color:brown;
+		box-shadow: 10px 10px 20px gray;
+		transform:translateZ(20px);}
+
+.texto-sombra{background-color:blue;
+		text-shadow: 2px 2px 5px #666;
+		color:white;}
+
+.caja-perspective{background-color:yellow;
+			perspective: 800px;}
+
+.caja-rotada{background-color:green;	
+		transform:rotate3d(7,0,0,360deg);
+		transition:transform 1s;}

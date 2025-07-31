@@ -1,0 +1,46 @@
+1) crear una pagina web de presentacion personal
+	
+	Crea un documento html con estructura basica (head,body)
+	
+	Agrega un titulo h1 con tu nombre y un subtitulo h2 con tu profesion
+	
+	inserta una imagen de perfil en un div con clase perfil
+
+	crea un parrafo con texto en negtrita y cursiva que describa tus habilidades
+
+	agrega un enlace a tu perfil de linkedin o github con el texto conecta conmigo
+
+	cambia el color del texto del titulo h1 a azul y del subtitulo h2 a verde
+
+2) diseñar una tabla de productos con formulario de busqueda
+
+	crea una tabla con encabezados para producto,precio y descripcion
+	agrega 5 filas con datos de ejemplo
+	inserta un formulario con un input de texto para busqueda y un boton de sumbit
+	agregar un atributo required al input del texto
+	coloca la tabla dentro de u narticulo y el formulario dentro de un aside
+
+3)crear un blog con articulo principal y seccion de comentarios
+
+	creda un articulo con titulo h1,imagen y texto
+	agrega una seccion para comentarios con formulario de comentarios
+
+	inserta input de texto para nombre,email y comentario con atrbiuto required
+	agrega un boton de submit y coloca el formulario dentro de un footer
+
+4)diseñar un pie de pagina con informacion de contacto y redes sociales
+
+	crea un footer con titulo h2 contacto
+agrega enlaces a redes sociales 
+inserta informacion de contacto: direccion,telefono correo electronico
+agrega icono de mapa con enlace a uicacion en google maps
+
+5) desarrollar un sitio web de noticias con filtrado de articulos por categoria,busqueda y paginacion
+
+crea un heade con menu de navegacion y busqueda
+diseña una seccion para articulos con fitltrado por categorias noticias deportes entretenimiento
+implementa busqueda de articulos con input de texto y boton de submit
+agrega paginacion con enlaces a paginas anteriores y siguientes
+utiliza articulo para cada noticioa con titulo h2 imagen texto resumido y enlace a articulo completo
+incorpora metatags para optimizacion seo y agregue un favicon
+utiliza aside para publicidad o contenido relacionado

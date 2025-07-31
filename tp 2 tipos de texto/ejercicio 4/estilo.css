@@ -1,0 +1,22 @@
+.caja-inline{	background-color:green;
+		display:inline;
+		padding=10px;}
+.caja-block{	
+		background-color:brown;
+		display:block;
+		max-width:500px;
+		margin:auto;
+		}
+
+.caja-bg-rojo{
+		background-color:red;
+		color:white;}
+		
+.caja-borde{
+		background-color:brown;
+		border: 6px solid black;
+		border-radius: 10px;
+		}
+				
+
+			

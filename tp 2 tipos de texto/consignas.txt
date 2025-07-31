@@ -1,0 +1,129 @@
+1) selectores y especifidad
+
+<div class= "container">
+<p id= "parrafo1" class= "rojo"> texto rojo</p>
+<p class= "azul"> texto azul </p>
+<span class= "negrita">texto negrita </span>
+</div>
+</div>
+
+aplicar estilos para que 
+parrafo 1 tenga color rojo y tamaño de fuente 24px
+.rojo no afecte a parrafo1 pero si a otros elementos con esa clase
+azul tenga color azul
+negrita tenga fuente negrita
+elementos p dentro de contenedor interno tengan tamaño de fuente 18px
+
+2)unidades de medida padding y margin
+
+<div class= "caja">
+<h2>titulo</h2>
+<p>
+	texto de ejemplo este texto debe tener un padding de 20px y un margin de 10px
+
+	</p>
+<p class= "otro-estilo"> otro texto de ejemplo este texto debe tener un tamaño de fuente de 1.5 em y un color azul </p>
+</div>
+
+aplicar estilos para que
+
+caja tenga un ancho de 80% del viewport y un alto automatico
+elementos p dentro de caja tengan
+padding de 20px
+margin de 10px
+tamaño de fuente de 16px
+
+otro estilo tenga
+tamaño de fuente 1.5 em relativo al tamaño de fuente del padre
+color azul
+
+
+3) propiedades de texto,color y box sizing
+
+<div class= "contenedor">
+<p class= "texto-normal"> </p>
+<p class= "texto grande"> texto grande con linea de altura de 1.8 </p>
+<p classs= "texto azul negrita> texto azul y negrita</p>
+<div calss= "caja roja">
+<p> texto dentro de caja roja con box sizing border box </p>
+</div>
+</div>
+
+aplicar estilos para que
+texto normal tenga 
+tamaño de fuente de 16px
+familia de fuente arial
+color negro
+
+texto grande tenga
+tamaño de fuente 24px
+linea de aluta 1.8
+
+texto azul negrita tenga
+color azul
+fuente goudy stout
+
+caja roja tenga
+
+ancho de 300px
+alto de 200px
+color de fondo rojo
+box sizing border box
+padding de 20px
+
+4) display max width background color y border
+
+<div class= "contenedor">
+<div class = "caja inline">
+<div class= "caja-blcok"> caja bolock con max width 500px </div>
+<div class= caja bg roja> caja con background color rojo </div>
+<div class="caja borde" > caja con borde de 2px solido negro </div>
+</div>
+
+caja inline tenga
+display inline
+padding de 10px
+
+caja block tenga
+display block
+max width de 500x
+margin auto para centrar horizontalmetne
+
+caja bg roja tenga
+
+background color rojo
+color de texto blanco
+
+caja borde tenga
+borde de 2px solido negro
+border radius de 10px para esquinas redondeadas
+
+5) transofrmaciones box shadow y text shadow
+
+<div class= "contenedor">
+<div class= "caja transformada"> con rotacion de 45 grados</div>
+<div class= "caja sombra" > caja con box shadow yelevacion </div>
+<p class= "texto sombra"> texto con text shadow y efecto de profundidad </p>
+<div class= "caja perspective">
+<div class = "caja rotada"> caja rotada en 3d con perspectiva </div>
+</div>
+</div>
+
+caja transformada tenga
+transformacion de rotacion de 45 grados
+transicion suave de 1s para efecto de giro
+
+caja sombra tenga 
+box shadow con offset x/y de 10px blur de 20px y color gris oscuro
+elevacion con translatez(20px) para efecto de profundidad
+
+texto sombra tenga
+text shadow con offset x/y de 2px blur de 5px y color gris claro
+color de texto blanco para contrastar con sombra
+
+caja perspective tenga
+perspectiva de 800px para crear efecto de profundiodad
+
+caja rotada tenga
+rotacion en 3d con trasform 3d de 45 grados en eje x
+trasicion suave de 1s para efecto de giro

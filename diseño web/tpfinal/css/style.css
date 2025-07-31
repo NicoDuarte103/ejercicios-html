@@ -1,0 +1,53 @@
+*{margin-block-start: 0px ;}
+.nav-bg{background-color:rgb(12, 95, 60) ;
+
+}
+.navegacion-principal{justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    }
+    .navegacion-principal a{color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: medium;}
+
+
+.hero{background-image:url(../img/hero.jpg) ;
+background-size: cover;
+height:300px;
+
+}
+.titulo{text-align: center;
+
+}
+.contenedor-hero{text-align: center;padding: 80px  60px; }
+.boton{background-color: rgb(55, 128, 121);padding: 5px 20px 5px 20px;
+text-transform: uppercase;}
+.contenedor-campos{height: 300px;
+    width: 50px;
+    
+
+}
+
+fieldset{border-radius: 10px;
+    border: 0;
+color:rgb(245, 239, 220)}
+
+.formulario{text-align: center;
+margin-right: 500px;
+margin-left: 500px ;
+padding:100 px;
+background-color:grey ;border-radius: 10px;
+}
+legend{color:yellow;
+font-size: large;}
+main section h2{text-align: center;}
+footer{text-align: center;}
+
+
+.boton{color: white;}
+.campo .input-text {width:500% ;}
+textarea.input-text{height:100px;}
+
+    
+        
+
